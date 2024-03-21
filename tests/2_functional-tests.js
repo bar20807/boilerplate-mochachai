@@ -79,6 +79,7 @@ suite('Functional Tests with Zombie.js', function () {
 
 
 
+
   suite('Headless browser', function () {
     test('should have a working "site" property', function() {
       assert.isNotNull(browser.site);
